@@ -15,3 +15,8 @@ To display videos we will install a [safe-pipe from NPM](https://www.npmjs.com/p
 ```sh
 npm install --save safe-pipe
 ```
+
+Make it a PWA
+```sh
+ng add @angular/pwa
+```
