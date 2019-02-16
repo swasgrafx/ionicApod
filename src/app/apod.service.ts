@@ -16,7 +16,6 @@ export class ApodService {
     private http:HttpClient,
     private ngApodConfig: NgApodConfig
   ){
-    console.log(this.ngApodConfig.key);
     this.url=`https://api.nasa.gov/planetary/apod?api_key=${this.ngApodConfig.key}`;
   }
 
