@@ -10,3 +10,8 @@ export class NgApodConfig{
   key: string = 'xxxxxxxxxxxxxxxx';
 }
 ```
+To display videos we will install a [safe-pipe from NPM](https://www.npmjs.com/package/safe-pipe).
+
+```sh
+npm install --save safe-pipe
+```
