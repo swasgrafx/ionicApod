@@ -2,7 +2,7 @@
 
 NASA's astronomy picture of the day as an Ionic 4 application.
 
-Protect your NASA key by placing it in an exteranal configuration file. You will need to add this to your providers list in app.module.ts and inject it into you constructor in apod.service.ts. I placed mine in *~/config*.
+Protect your NASA key by placing it in an exteranal config file. You will need to add this to your providers list in app.module.ts and inject it into the constructor in apod.service.ts. I placed my config file in *~/config*.
 
 *~/config/ng-apod.config.ts*
 ```ts
