@@ -6,7 +6,7 @@
 
 <ion-content>
 
-  <ion-card *ngIf="apod"> 
+  <ion-card *ngIf="apod">
     <ion-button style="margin:0;" expand="full" size="large" [routerLink]="['/apod', date]">Random</ion-button>
     <ion-img *ngIf="apod.media_type=='image'" [src]="apod.url" alt="{{ apod.title }}"></ion-img>
     <div id="apodVideo" *ngIf="apod.media_type=='video'">
@@ -23,5 +23,4 @@
       {{ apod.explanation }}
     </ion-card-content>
   </ion-card>
-
 </ion-content>
